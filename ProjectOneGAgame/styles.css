@@ -1,0 +1,48 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(30, 28, 28);
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+
+}
+
+.word {
+    font-size: 900%;
+    cursor: pointer;
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+#hobo {
+    transform: translateX(-500px);
+}
+
+#fight {
+    transform: translateX(500px);
+}
+
+#club {
+    transform: translateX(-500px);
+}
+
+
+/* Citations
+
+https://www.w3schools.com/css/css3_transitions.asp
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+
+https://www.w3schools.com/jsref/prop_style_opacity.asp
+
+ */
+
