@@ -23,5 +23,5 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function clickedWord(word) {
     alert("Continue to the next page!");
-    window.location.href = ''
+    window.location.href = 'mainmenu/mainmenu.html';
 }
