@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(30, 28, 28);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 550px;
+}
+
+
+#Img1 {
+    border: 5px solid blue; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px blue;
+}
+
+#Img2 {
+    border: 5px solid red; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px red;
+}
+
+.player1, .player2 {
+    cursor: pointer;
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+#dannyAwesome {
+    transform: translateX(-500px);
+}
+
+#gasser {
+    transform: translateY(-500px);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+#flip {
+    
+}
+

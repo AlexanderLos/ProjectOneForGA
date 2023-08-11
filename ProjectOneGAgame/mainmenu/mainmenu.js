@@ -29,18 +29,26 @@ setTimeout(() => {
 
 
 
+function clickedTutorial() {
+    alert("Time to learn!")
+    window.location.href = '../tutorial/tutorial.html';
+}
 
 function clickedStory() {
     alert("Time for an adventure!");
+    window.location.href = '';
 }
 
 function clickedCustomMatch() {
     alert("Good Luck!");
+    window.location.href = '';
 }
 
 function clickedCredits() {
     alert("Thank you for playing!");
+    window.location.href = '';
 }
+
 
 // After some event or condition
 document.querySelector('.title').style.opacity = "1";
