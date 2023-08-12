@@ -1,0 +1,52 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(30, 28, 28);
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; 
+}
+
+.credit, h1 {
+    font-size: 200%;
+    color: green;
+    opacity: 0; 
+    transition: opacity 3s ease;
+    cursor: default;
+}
+
+.returnMenu {
+    font-size: 150%;
+    cursor: pointer;
+    color: red;
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.creditParagraph {
+    font-size: 100%;
+    color: white;
+    max-width: 50%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 3s ease;
+    cursor: default;
+    transform: translateY(0px); 
+}
+
+
+#credit {
+    transform: translateY(-500px);
+}
+
+#returnMain {
+    transform: translateY(500px);
+}

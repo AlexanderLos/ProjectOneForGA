@@ -1,3 +1,5 @@
+// Uses the same js functions as the main menu. 
+
 document.addEventListener("DOMContentLoaded", function() {
     let story = document.getElementById('story');
     let customMatch = document.getElementById('customMatch');
@@ -10,10 +12,6 @@ setTimeout(() => {
     tutorial.style.transform = 'translateX(0)';
     tutorial.style.opacity = '1';
     
-    setTimeout(() => {
-        story.style.transform = 'translateX(0)';
-        story.style.opacity = '1';
-
         setTimeout(() => {
             customMatch.style.transform = 'translateX(0)';
             customMatch.style.opacity = '1';
@@ -24,7 +22,6 @@ setTimeout(() => {
                 }, 500); 
             }, 500); 
         }, 500);
-    }, 500); 
 });
 
 
@@ -34,14 +31,14 @@ function clickedTutorial() {
     window.location.href = '../tutorial/tutorial.html';
 }
 
-function clickedStory() {
-    alert("Time for an adventure!");
-    window.location.href = '';
-}
+// function clickedStory() {
+//     alert("Time for an adventure!");
+//     window.location.href = '';
+// }
 
 function clickedCustomMatch() {
     alert("Good Luck!");
-    window.location.href = '';
+    window.location.href = '../custommatch/custommatch.html';
 }
 
 function clickedCredits() {
@@ -50,6 +47,5 @@ function clickedCredits() {
 }
 
 
-// After some event or condition
 document.querySelector('.title').style.opacity = "1";
 document.querySelector('h1').style.opacity = "1";

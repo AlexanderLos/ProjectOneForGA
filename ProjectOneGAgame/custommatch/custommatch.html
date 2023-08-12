@@ -5,24 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="custommatch.css">
-    <script src="custommatch.js"></script>
-    <style>@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-    </style>
+    <script src="custommatch.js" defer></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');</style>
 </head>
+
 <body>
     <div class="container">
-    <div class="player1" id="dannyAwesome"> 
-        <img id="Img1" src="dannyAwesome.gif" alt=""> 
-        <h1>Danny Awesome</h1> 
+        <div class="player1" id="dannyAwesome">
+            <img id="Img1" src="dannyAwesome.gif" alt="">
+            <div id="name1">
+                <h1>Danny Awesome</h1>
+            </div>
+        </div>
+        <div class="player2" id="gasser">
+            <img id="Img2" src="gasser.gif" alt="">
+            <div id="name2">
+                <h1>Gasser</h1>
+            </div>
+        </div>
     </div>
-    <div class="player2" id="gasser"> 
-        <img id="Img2" src="gasser.gif" alt=""> 
-        <div id="name2"><h1>Gasser</h1> 
-        </div> 
+    <div class="scoreboard">
+        <span id="playerScore">0</span> - <span id="computerScore">0</span>
     </div>
-    </div>
-    <div class="button">
-    <button id="flip">Flip!</button>
+    <div class="flip">
+        <img class="coin" src="" alt="Coin Result">
+        <button id="flipButton">Flip!</button>
     </div>
 </body>
+
 </html>
