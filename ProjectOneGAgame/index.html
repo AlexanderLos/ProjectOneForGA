@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-      </style>    
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Hobo Fight Club!</title>
 </head>
-<body>
+
+<body onclick="playMusicOnce();">
     <div class="title">
         <div class="word" id="hobo" onclick="clickedWord('Hobo')">Hobo</div>
         <div class="word" id="fight" onclick="clickedWord('Fight')">Fight</div>
         <div class="word" id="club" onclick="clickedWord('Club!')">Club!</div>
     </div>
     <audio id="titleMusic" preload="auto">
-        <source src="../hoboSoundIntro.mp3" type="audio/mp3">
+        <source src="hoboAudio.mp3" type="audio/mp3">
         Your browser does not support the audio element.
-    </audio>    
+    </audio>
     <script src="app.js"></script>
 </body>
+
 </html>
 

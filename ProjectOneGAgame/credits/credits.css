@@ -31,7 +31,7 @@ body {
     transition: transform 1s ease, opacity 1s ease;
 }
 
-.creditParagraph {
+.creditParagraph {.
     font-size: 100%;
     color: white;
     max-width: 50%;

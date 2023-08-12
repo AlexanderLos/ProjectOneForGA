@@ -43,7 +43,7 @@ function clickedCustomMatch() {
 
 function clickedCredits() {
     alert("Thank you for playing!");
-    window.location.href = '';
+    window.location.href = '../credits/credits.html';
 }
 
 

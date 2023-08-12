@@ -2,7 +2,7 @@
 // Next, the coin flipping container slides into frame.
 // When a user clicks the flip button, a virtual coin is flipped. It can land on either side representing a player.
 // There is a tied screen but I could not get it to work.
-// The scores are then updated. After evry round, or if a player reaches 2 points, the winner is declared.
+// The scores are then updated. After evry round, or if a player reaches 2 points, the winner is declared via alert.
 
 document.addEventListener("DOMContentLoaded", function() {
     const player1 = document.getElementById('dannyAwesome');
